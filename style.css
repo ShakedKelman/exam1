@@ -1,0 +1,45 @@
+html,
+body {
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 200vh;
+    background-color: aliceblue;
+    font-style: italic;
+    color: rgb(19, 2, 67);
+
+}
+
+form {
+    border-radius: 5px;
+    width: 300px;
+    background-color: rgba(208, 227, 243,0.5);
+    padding: 20px;
+    margin: 30px;
+    border: 2px solid black;
+    text-align: center;
+    justify-content: center;
+    margin-left: 475px;
+
+
+
+}
+
+
+table, td, th {
+    border: 1px solid;
+    padding: 20px;
+    margin: 30px;
+  }
+  
+  table {
+    width: 600px;
+    border-collapse: collapse;
+    margin-left: 350px;
+    background-color: rgba(208, 227, 243,0.5);
+
+  }
+
+  div{
+    text-align: center;
+  }

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./main.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <div>
+
+
+        <form>
+            <h3>add products</h3>
+            <input type="text" id="productName" name="product-name" placeholder="enter product name" required>
+            <br>
+            <br>
+            <input type="number" id="productPrice" name="product-price" placeholder="enter product price" required>
+            <br><br>
+
+            <div>
+                <p>please select a dairy item in the category</p>
+                <select id="itemsCategory">
+                    <option value="dairy">milk</option>
+                    <option value="snacks">chips</option>
+                    <option value="meat">steak</option>
+                    <option value="basic">shirt</option>
+                    <option value="drinks">water</option>
+                </select>
+            </div>
+            <br><br>
+            <div>
+                <input type="text" placeholder="please enter image link" id="linkedImage" required>
+            </div>
+            <br><br>
+            <button type="button" onclick="addProduct()">Add product</button>
+
+        </form>
+
+        <div>
+            <h2>my cart</h2>
+            <table>
+                <tr>
+                    <th>name</th>
+                    <th>price</th>
+                    <th>category</th>
+                    <th>image</th>
+                    <th>actions</th>
+
+                </tr>
+                <tr>
+                    <td id="productNameOutput">tableData1</td>
+                    <td id="productPriceOutput">tableData2</td>
+                    <td id ="productCategoryOutput">tableData3</td>
+                    <td id="linkedImageOutput">tableData4</td>
+                    <td id="button"> <button onclick="erase()">erase</button></td>
+
+                   
+                </tr>
+
+
+            </table>
+        </div>
+</body>
+
+</html>
