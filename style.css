@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     height: 200vh;
-    background-color: aliceblue;
+    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(157, 203, 244));
     font-style: italic;
     color: rgb(19, 2, 67);
 }

@@ -1,3 +1,4 @@
+
 let nameOutput = "";
 let priceOutput = "";
 
@@ -7,8 +8,10 @@ function addProduct() {
     let numberInput = document.getElementById("productPrice");
     let textOutput = document.getElementById("productNameOutput");
     let numberOutput = document.getElementById("productPriceOutput");
+
     let image = document.getElementById("linkedImage");
     let imageOutput = document.getElementById("linkedImageOutput");
+
     let categoryValue = document.getElementById("itemsCategory");
     let categoryOutput = document.getElementById("productCategoryOutput");
 
@@ -28,15 +31,14 @@ function addProduct() {
         categoryOutput.innerHTML = categoryValue.value;
         console.log(categoryOutput);
 
-
         textInput.value = "";
         numberInput.value = "";
         image.value = "";
 
-
     }
+
     else {
-        alert("please fill all inputs");
+        alert("please fill all fields");
     }
 
 
@@ -47,6 +49,7 @@ function erase() {
     let numberOutput = document.getElementById("productPriceOutput");
     let imageOutput = document.getElementById("linkedImageOutput");
     let categoryOutput = document.getElementById("productCategoryOutput");
+
     textOutput.innerHTML = "";
     numberOutput.innerHTML = "";
     imageOutput.innerHTML = "";
