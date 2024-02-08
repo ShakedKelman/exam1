@@ -7,44 +7,61 @@ body {
     background-color: aliceblue;
     font-style: italic;
     color: rgb(19, 2, 67);
-
 }
 
 form {
     border-radius: 5px;
     width: 300px;
-    background-color: rgba(208, 227, 243,0.5);
+    background-color: rgba(208, 227, 243, 0.5);
     padding: 20px;
     margin: 30px;
     border: 2px solid black;
     text-align: center;
     justify-content: center;
     margin-left: 475px;
-
-
-
 }
 
 
-table, td, th {
+table,
+td,
+th {
     border: 1px solid;
     padding: 20px;
     margin: 30px;
-  }
+}
 
-  img{
+img {
     width: 75px;
     height: 50px;
-  }
-  
-  table {
+}
+
+table {
     width: 600px;
     border-collapse: collapse;
     margin-left: 350px;
-    background-color: rgba(208, 227, 243,0.5);
+    background-color: rgba(208, 227, 243, 0.5);
 
-  }
+}
 
-  div{
+div {
     text-align: center;
-  }
+}
+
+input,
+select {
+    font-style: italic;
+    color: rgb(19, 2, 67);
+    border: 2px solid rgb(11, 1, 75);
+    background-color: aliceblue;
+    text-align: center;
+
+}
+
+button {
+    background-color: rgba(18, 2, 67, 0.3);
+    color: rgb(5, 0, 19);
+    font-style: italic;
+    border: 1px solid white;
+
+
+}

@@ -6,25 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./main.js" defer></script>
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <title>my products</title>
 </head>
 
 <body>
-
-
     <div>
-
-
         <form>
             <h3>add products</h3>
             <input type="text" id="productName" name="product-name" placeholder="enter product name" required>
             <br>
             <br>
             <input type="number" id="productPrice" name="product-price" placeholder="enter product price" required>
-            <br><br>
-
+            <br>
+            <br>
             <div>
-                <p>please select a dairy item in the category</p>
+                <h4>please select an item in a category</h4>
                 <select id="itemsCategory">
                     <option value="dairy">milk</option>
                     <option value="snacks">chips</option>
@@ -33,13 +29,14 @@
                     <option value="drinks">water</option>
                 </select>
             </div>
-            <br><br>
+            <br>
+            <br>
             <div>
                 <input type="text" placeholder="please enter image link" id="linkedImage" required>
             </div>
-            <br><br>
+            <br>
+            <br>
             <button type="button" onclick="addProduct()">Add product</button>
-
         </form>
 
         <div>
@@ -51,19 +48,14 @@
                     <th>category</th>
                     <th>image</th>
                     <th>actions</th>
-
                 </tr>
                 <tr>
-                    <td id="productNameOutput">tableData1</td>
-                    <td id="productPriceOutput">tableData2</td>
-                    <td id ="productCategoryOutput">tableData3</td>
-                    <td id="linkedImageOutput">tableData4</td>
+                    <td id="productNameOutput"></td>
+                    <td id="productPriceOutput"></td>
+                    <td id="productCategoryOutput"></td>
+                    <td id="linkedImageOutput"></td>
                     <td id="button"> <button onclick="erase()">erase</button></td>
-
-                   
                 </tr>
-
-
             </table>
         </div>
 </body>

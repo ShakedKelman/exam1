@@ -12,10 +12,10 @@ function addProduct() {
     let categoryValue = document.getElementById("itemsCategory");
     let categoryOutput = document.getElementById("productCategoryOutput");
 
-   
-   
+
+
     if (textInput.value && numberInput.value && image.value && categoryValue) {
-       
+
         nameOutput += textInput.value;
         textOutput.innerHTML = nameOutput;
 
@@ -27,11 +27,11 @@ function addProduct() {
 
         categoryOutput.innerHTML = categoryValue.value;
         console.log(categoryOutput);
-      
+
 
         textInput.value = "";
         numberInput.value = "";
-        image.value="";
+        image.value = "";
 
 
     }
@@ -47,10 +47,10 @@ function erase() {
     let numberOutput = document.getElementById("productPriceOutput");
     let imageOutput = document.getElementById("linkedImageOutput");
     let categoryOutput = document.getElementById("productCategoryOutput");
-    textOutput.innerHTML="";
-    numberOutput.innerHTML="";
-    imageOutput.innerHTML="";
-    categoryOutput.innerHTML="";
+    textOutput.innerHTML = "";
+    numberOutput.innerHTML = "";
+    imageOutput.innerHTML = "";
+    categoryOutput.innerHTML = "";
 }
 
 
